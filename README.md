@@ -8,7 +8,7 @@ This project is a simulation of the Sokoban puzzle game.
 
 The search for the winning path is carried out using two algorithms:
 - **Breadth-First Search (BFS)**: `breadthFirst()` (with and without deadlocks).
-- **A* Algorithm**: (with and without deadlocks) and with different heuristics.
+- **A star Algorithm**: (with and without deadlocks) and with different heuristics.
 
 ## Interface:
 - The graphical interface is built using **Pygame**.
