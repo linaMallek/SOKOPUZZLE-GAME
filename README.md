@@ -1,16 +1,23 @@
 # SOKOPUZZLE
-- Ce projet est une simulation du jeux sokopuzzle 
-How it's works :
-- Donner un board de jeux voulue 
-- retourner une simulation graphique du chemin a suivre pour gagner la partie 
 
-Cette recherche du chemin gagnant est faite selon deux algoritmes :
-       - Largeur d'abord :breadthFirst() (avec est sans deadlocks ) 
-       - Astra : (avec est sans deadlocks )  et avec differentes heuristiques 
+This project is a simulation of the Sokoban puzzle game.
 
-Interface : pyGame 
+## How it works:
+- Provide a desired game board.
+- It returns a graphical simulation of the path to follow in order to win the game.
 
-Execution : 
- Acceder au fichier sokoPuzzleGraphics.py et executez 
+The search for the winning path is carried out using two algorithms:
+- **Breadth-First Search (BFS)**: `breadthFirst()` (with and without deadlocks).
+- **A* Algorithm**: (with and without deadlocks) and with different heuristics.
+
+## Interface:
+- The graphical interface is built using **Pygame**.
+
+## How to run:
+- Open the file `sokoPuzzleGraphics.py` and execute it.
+
+## Example:
+![Game Board](images/result/1.png) ![Simulation Path](images/result/2.png)
+
  
        
